@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Shell, Waves, Compass } from 'lucide-react'
 import { Calligraffitti } from 'next/font/google'
 import React from 'react'

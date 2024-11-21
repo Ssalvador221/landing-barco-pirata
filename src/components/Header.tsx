@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Calligraffitti } from 'next/font/google'
 import Link from 'next/link'
 import React from 'react'
