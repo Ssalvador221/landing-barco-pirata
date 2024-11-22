@@ -17,7 +17,7 @@ function Header() {
         <img
           alt="Placeholder"
           src="./barco-perola-negra.jpg"
-          className="w-full h-full object-cover blur-[2px]"
+          className="w-full h-full object-cover blur-[4px]"
         />
         <div className="absolute inset-0 " />
       </div>
@@ -40,9 +40,9 @@ function Header() {
       >
         <div className="text-center">
           <h1
-            className={`${calligraffitti.className} text-[4.5rem] font-bold text-[#ffffff] mb-4`}
+            className={`${calligraffitti.className} text-[6rem] font-bold text-[#8b4513] mb-4`}
           >
-            Barco Perola Negra
+            Barco Pérola Negra
           </h1>
           <p className="text-xl text-[#ffffff] mb-8">
             Você teria coragem de navegar sobre o comando de um pirata?

@@ -9,12 +9,14 @@ import Informations from '@/components/Informations'
 import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
 import History from '@/components/History'
+import Intro from '@/components/Intro'
 
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main>
+        <Intro />
         <History />
         <AboutRide />
         <AboutLocale />
