@@ -40,7 +40,7 @@ function Header() {
       >
         <div className="text-center">
           <h1
-            className={`${calligraffitti.className} text-[6rem] font-bold text-[#8b4513] mb-4`}
+            className={`${calligraffitti.className} text-[6rem] max-sm:text-[3rem] font-bold text-[#8b4513] mb-4`}
           >
             Barco Pérola Negra
           </h1>
