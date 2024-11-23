@@ -1,6 +1,14 @@
-import { Ship, Anchor, Compass } from 'lucide-react'
+/* eslint-disable react/jsx-no-undef */
+import { Ship, Anchor } from 'lucide-react'
 import React from 'react'
-import { Card, CardHeader, CardTitle, CardContent } from '../ui/card'
+import Image from 'next/image'
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardContent,
+  CardFooter,
+} from '../ui/card'
 import Link from 'next/link'
 
 function AboutRide() {
@@ -12,8 +20,15 @@ function AboutRide() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           <Card className="bg-[#f4e1c1] border-[#8b4513]">
-            <CardHeader>
-              <CardTitle className="text-[#8b4513] flex items-center">
+            <CardHeader className="p-0">
+              <Image
+                src="/fotoPocket.jpg"
+                alt="Passeio Pocket"
+                width={400}
+                height={30}
+                className="w-full mb-2 h-[600px] object-fill rounded-t-lg"
+              />
+              <CardTitle className="text-[#8b4513] flex items-center p-4">
                 <Ship className="w-6 h-6 mr-2" />
                 Passeio Pocket
               </CardTitle>
@@ -50,11 +65,28 @@ function AboutRide() {
                 documento.
               </p>
             </CardContent>
+            <CardFooter>
+              <Link
+                href="https://ingressos.escunaspirata.com.br/unit/4212/pirata-pocket--compra-antecipada/"
+                target="_blank"
+              >
+                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                  Compre aqui!
+                </button>
+              </Link>
+            </CardFooter>
           </Card>
 
           <Card className="bg-[#f4e1c1] border-[#8b4513]">
-            <CardHeader>
-              <CardTitle className="text-[#8b4513] flex items-center">
+            <CardHeader className="p-0">
+              <Image
+                src="/barcoPerola.jpg"
+                alt="Passeio Pocket"
+                width={400}
+                height={30}
+                className="w-full mb-2 h-[600px] object-fill rounded-t-lg"
+              />
+              <CardTitle className="text-[#8b4513] p-4 flex items-center">
                 <Anchor className="w-6 h-6 mr-2" />
                 Passeio Full
               </CardTitle>
@@ -98,12 +130,29 @@ function AboutRide() {
                 6 a 10 anos pagam meia é necessário apresentação de documento
               </p>
             </CardContent>
+            <CardFooter>
+              <Link
+                href="https://ingressos.escunaspirata.com.br/unit/4211/pirata-full--compra-antecipada/"
+                target="_blank"
+              >
+                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                  Compre aqui!
+                </button>
+              </Link>
+            </CardFooter>
           </Card>
 
           <Card className="bg-[#f4e1c1] border-[#8b4513]">
-            <CardHeader>
-              <CardTitle className="text-[#8b4513] flex items-center">
-                <Compass className="w-6 h-6 mr-2" />
+            <CardHeader className="p-0">
+              <Image
+                src="/roteiro5horas.jpg"
+                alt="Passeio Pocket"
+                width={400}
+                height={200}
+                className="w-full mb-2 object-cover rounded-t-lg"
+              />
+              <CardTitle className="text-[#8b4513] flex items-center p-4">
+                <Ship className="w-6 h-6 mr-2" />
                 Passeio Full + Visitação à Fortaleza
               </CardTitle>
             </CardHeader>
@@ -154,6 +203,16 @@ function AboutRide() {
                 6 a 10 anos pagam meia é necessário apresentação de documento
               </p>
             </CardContent>
+            <CardFooter>
+              <Link
+                href="https://ingressos.escunaspirata.com.br/unit/4233/fortalezas/"
+                target="_blank"
+              >
+                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                  Compre aqui!
+                </button>
+              </Link>
+            </CardFooter>
           </Card>
         </div>
         <div className="mt-8 text-center">
@@ -161,13 +220,6 @@ function AboutRide() {
             ⚠️ Aviso Importante: o Check-in deve ser feito com 1 hora de
             antecedência.
           </p>
-          <Link
-            href="https://api.whatsapp.com/send?phone=5548999603576"
-            target="_blank"
-            className="px-4 py-2 rounded bg-[#8b4513] hover:bg-[#a0522d] text-[#ffffff]"
-          >
-            Reserve sua viagem já.
-          </Link>
         </div>
       </div>
     </section>

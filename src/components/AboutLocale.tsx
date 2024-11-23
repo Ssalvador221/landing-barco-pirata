@@ -15,7 +15,7 @@ function AboutLocale() {
     <section id="praia" className="py-16 bg-[#f4e1c1]">
       <div className="container mx-auto px-4">
         <h2
-          className={`${calligraffitti.className} text-4xl font-bold text-center mb-8 text-[#000000]`}
+          className={`${calligraffitti.className} text-4xl font-bold text-center mb-8 text-[#8b4513]`}
         >
           Aonde você vai estar
         </h2>
@@ -28,7 +28,7 @@ function AboutLocale() {
             />
           </div>
           <div className="flex flex-col justify-center">
-            <p className="text-[#000000] mb-4 text-[17px] max-sm:text-[15px] max-sm:text-center">
+            <p className="text-[#8b4513] mb-4 text-[17px] max-sm:text-[15px] max-sm:text-center">
               Canasvieiras é uma das praias mais famosas e movimentadas de
               Florianópolis, localizada no norte da Ilha de Santa Catarina. Com
               águas calmas, quentes e esverdeadas, é um destino popular entre
@@ -47,8 +47,8 @@ function AboutLocale() {
                 },
               ].map((item, index) => (
                 <div key={index} className="flex items-center">
-                  <item.icon className="w-6 h-6 mr-2 text-[#000000]" />
-                  <span className="text-[#000000]">{item.text}</span>
+                  <item.icon className="w-6 h-6 mr-2 text-[#8b4513]" />
+                  <span className="text-[#8b4513]">{item.text}</span>
                 </div>
               ))}
             </div>
