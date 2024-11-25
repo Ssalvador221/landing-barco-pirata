@@ -15,7 +15,7 @@ const calligraffitti = Calligraffitti({
 function Header() {
   return (
     <header className="relative h-screen flex flex-col max-sm:h-[550px]">
-      <div className="absolute inset-0 max-sm:z-50">
+      <div className="absolute inset-0 max-sm:z-50 max-sm:h-[400px]">
         <img
           alt="Placeholder"
           src="./barco-perola-negra.jpg"
