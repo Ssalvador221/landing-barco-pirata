@@ -14,41 +14,40 @@ const calligraffitti = Calligraffitti({
 })
 function Header() {
   return (
-    <header className="relative h-screen flex flex-col">
-      <div className="absolute inset-0 z-0">
+    <header className="relative h-screen flex flex-col max-sm:h-[550px]">
+      <div className="absolute inset-0 max-sm:z-50">
         <img
           alt="Placeholder"
           src="./barco-perola-negra.jpg"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-cover max-sm:object-cover max-sm:align-middle max-sm:w-full max-sm:h-[270px] max-sm:mt-[58px] max-sm:z-50"
         />
-        <div className="absolute inset-0 " />
       </div>
       <Navbar />
       <Hamburguer />
       <div
-        className={`flex-grow flex items-center justify-center relative z-10`}
+        className={`flex-grow flex items-center justify-center relative z-10 max-sm:bg-[#e6d2ae]`}
       >
         <div className="text-center">
           <h1
             className={`${calligraffitti.className} text-[6rem] max-sm:text-[3rem] font-bold text-[#8b4513] mb-4`}
           ></h1>
           <p
-            className={`${calligraffitti.className} text-3xl max-sm:text-xl max-sm:mt-[33rem] text-[#ffffff] mt-[48rem] mb-8`}
+            className={`${calligraffitti.className} text-3xl max-sm:text-xl max-sm:mt-[22rem] text-[#ffffff] max-sm:text-[#000000] mt-[48rem] mb-8`}
           >
-            Você teria coragem de navegar sob o comando de um pirata?
+            Você tem coragem de navegar sob o comando de um pirata?
           </p>
           <div className="flex w-full justify-center items-center gap-6">
             <Link
               href="https://api.whatsapp.com/send?phone=5548999603576"
               target="_blank"
             >
-              <FaWhatsapp className="w-6 h-6 text-white" />
+              <FaWhatsapp className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
             <Link href="https://www.instagram.com/barcoperolanegra/">
-              <FaInstagram className="w-6 h-6 text-white" />
+              <FaInstagram className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
             <Link href="https://ingressos.escunaspirata.com.br/agente/421103/">
-              <FaTicket className="w-6 h-6 text-white" />
+              <FaTicket className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
           </div>
         </div>

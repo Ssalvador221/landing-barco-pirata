@@ -61,8 +61,8 @@ function AboutRide() {
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
               <p className="text-sm">
-                Crianças de 6-10 anos: Paga meia entrada e é necessário
-                documento.
+                {' '}
+                6 a 10 anos pagam meia é necessário apresentação de documento
               </p>
             </CardContent>
             <CardFooter>
@@ -148,8 +148,8 @@ function AboutRide() {
                 src="/roteiro5horas.jpg"
                 alt="Passeio Pocket"
                 width={400}
-                height={200}
-                className="w-full mb-2 object-cover rounded-t-lg"
+                height={30}
+                className="w-full h-[600px] mb-2 object-cover rounded-t-lg"
               />
               <CardTitle className="text-[#8b4513] flex items-center p-4">
                 <Ship className="w-6 h-6 mr-2" />

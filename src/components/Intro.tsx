@@ -4,7 +4,7 @@ import React from 'react'
 
 function Intro() {
   return (
-    <section id="nossa-história" className="py-16 bg-[#E6D2AE]">
+    <section id="nossa-história" className="py-16 max-sm:py-8 bg-[#E6D2AE]">
       <div className="container flex flex-col flex-wrap justify-center items-center gap-16 mx-auto px-4">
         <h1 className="text-4xl font-bold text-center  text-[#8b4513]">
           Barco Pérola Negra
