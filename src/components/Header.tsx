@@ -32,7 +32,7 @@ function Header() {
             className={`${calligraffitti.className} text-[6rem] max-sm:text-[3rem] font-bold text-[#8b4513] mb-4`}
           ></h1>
           <p
-            className={`${calligraffitti.className} text-3xl max-sm:text-xl max-sm:mt-[22rem] text-[#ffffff] max-sm:text-[#000000] mt-[48rem] mb-8`}
+            className={`${calligraffitti.className} text-3xl max-sm:text-xl max-sm:mt-[22rem] 2xl:mt-[45rem] max-xl:mt-[45rem] xl:mt-[45rem] lg:mt-[40rem] max-lg:mt-[50rem]  md:mt-[40rem] max-md:mt-[46rem]  text-[#ffffff] max-sm:text-[#000000] mt-[48rem] mb-8`}
           >
             Você tem coragem de navegar sob o comando de um pirata?
           </p>

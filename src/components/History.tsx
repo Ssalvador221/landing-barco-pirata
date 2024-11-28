@@ -20,7 +20,7 @@ function History() {
         <div className="flex flex-wrap flex-row justify-center gap-16 max-sm:gap-12">
           <Carousel className="w-[600px] h-auto">
             <CarouselContent>
-              {[0, 1, 2, 3, 4].map((_, index) => (
+              {[0, 1, 2].map((_, index) => (
                 <CarouselItem key={index}>
                   <div className="relative h-[400px]">
                     <img

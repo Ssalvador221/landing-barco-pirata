@@ -19,7 +19,7 @@ function Localization() {
       </h2>
       <div className="aspect-video w-full rounded-lg overflow-hidden">
         <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d140307.79822024604!2d-48.56218811074481!3d-27.44151353711417!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x952743a5a5dd513f%3A0xe5369e503939589b!2sEmbarque%20-%20BARCO%20P%C3%89ROLA%20NEGRA!5e1!3m2!1spt-BR!2sbr!4v1732562302670!5m2!1spt-BR!2sbr"
+          src="https://www.google.com/maps/embed?pb=!4v1732817625175!6m8!1m7!1sCAoSLEFGMVFpcFBUSHNIWTdBN3hxUjBLZnItLUtzOE0yQURjSUVzUkw3ZDZsODg0!2m2!1d-27.39527097625789!2d-48.42882193531858!3f359.89!4f0.10999999999999943!5f0.7820865974627469"
           width="100%"
           height="100%"
           style={{ border: 0 }}

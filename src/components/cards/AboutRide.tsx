@@ -40,14 +40,14 @@ function AboutRide() {
                 temporada ou com grupos durante o ano todo
               </p>
               <p className="mb-2">🏖️ Vista panorâmica das praias:</p>
-              <ul className="list-disc list-inside mb-2">
-                <li>Canasvieiras</li>
-                <li>Canasjure</li>
-                <li>Jurerê Tradicional</li>
-                <li>Jurerê Internacional</li>
-                <li>Praia do Forte</li>
-                <li>Cachoeira do Bom Jesus</li>
-                <li>Ponta das Canas</li>
+              <ul className="list-none mb-2 space-y-2">
+                <li>👉 Canasvieiras</li>
+                <li>👉 CanaJurê</li>
+                <li>👉 Jurerê Tradicional</li>
+                <li>👉 Jurerê Internacional</li>
+                <li>👉 Praia do Forte</li>
+                <li>👉 Cachoeira do Bom Jesus</li>
+                <li>👉 Ponta das Canas</li>
               </ul>
               <p className="mb-2">🏊‍♂️ Banho de mar na Ilha do Francês</p>
               <p className="mb-2">
@@ -94,29 +94,41 @@ function AboutRide() {
             <CardContent className="text-[#5e2c04]">
               <p className="mb-2">⏱️ Duração: aproximadamente 4 horas</p>
               <p className="mb-2">
-                ⚓ Saída: Canasvieiras as 10h30 (Alta temporada)
+                ⚓ Saída: Canasvieiras as 10h30 (Alta temporada) na baixa
+                temporada consultar dias e horarios de saida
               </p>
               <p className="mb-2">🏖️ Passagens pelas praias</p>
-              <ul className="list-disc list-inside mb-2">
-                <li>Canasvieiras e Canasjurê</li>
-                <li>Jurerê Tradicional e Internacional</li>
-                <li>Praia do Forte</li>
-                <li>São José da Ponta Grossa Forte (vista panorâmica)</li>
+              <ul className="flex flex-col gap-2 list-none mb-2">
                 <li>
-                  Ilha de Anhatomirim e em seguida do Quartel da Tropa história
-                  da Fortaleza de Santa Cruz nestas paradas.
+                  <span className="mr-2">👉</span>Canasvieiras e CanaJurê
                 </li>
-                <li>Santa Cruz Forte</li>
                 <li>
-                  Baía dos Golfinhos (Estando os golfinhos, paramos para
-                  observa-los.)
+                  <span className="mr-2">👉</span>Jurerê Tradicional e
+                  Internacional
+                </li>
+                <li>
+                  <span className="mr-2">👉</span>Praia do Forte
+                </li>
+                <li>
+                  <span className="mr-2">👉</span>Vista panorâmica do Forte de
+                  São José da Ponta Grossa breve explicação histórica desta
+                  Fortaleza
+                </li>
+                <li>
+                  <span className="mr-2">👉</span>Vista panorâmica do Portal da
+                  Entrada da Ilha de Anhatomirim e em seguida do Quartel da
+                  Tropa história da Fortaleza de Santa Cruz nestas paradas.
+                </li>
+                <li>
+                  <span className="mr-2">👉</span>Passagem pela baía dos
+                  Golfinhos (Estando os golfinhos, paramos para observa-los.
+                  Você pode ter a sorte de encontra-los por lá!)
                 </li>
               </ul>
               <p className="mb-2">
                 🍽️ parada para almoço na praia da Costeira da Armação (Município
                 de Governador Celso Ramos). Valor de R$ 70,00 (dinheiro ou
-                cartão) por pessoa buffet livre (crianças de 6 a 10 anos paga
-                meia no almoço);
+                cartão) por pessoa buffet livre (Crianças até 10 anos pagam);
               </p>
               <p className="mb-2">🏊‍♂️ Banho de Mar ilha do francês</p>
               <p className="font-bold">Valores:</p>
@@ -159,38 +171,42 @@ function AboutRide() {
             <CardContent className="text-[#5e2c04]">
               <p className="mb-2">⏱️ Duração: aproximadamente 5 horas</p>
               <p className="mb-2">
-                ⚓ Saida: Canasvieiras as 9h (Alta temporada)
+                ⚓ Saida: Canasvieiras as 9:30h (Alta temporada) na baixa
+                temporada consultar dias e horarios de saida
               </p>
               <p className="mb-2">🏖️ Passagens pelas praias:</p>
-              <ul className="list-disc list-inside mb-2">
-                <li>Canasvieiras and Canasjurê</li>
-                <li>Jurerê Tradicional e Internacional</li>
-                <li>Praia do Forte</li>
+              <ul className="list-none mb-2 space-y-2">
+                <li>👉 Canasvieiras e CanaJurê</li>
+                <li>👉 Jurerê Tradicional e Internacional</li>
+                <li>👉 Praia do Forte</li>
                 <li>
-                  São José da Ponta Grossa Fort (vista panorâmica) e breve
+                  👉 Vista panorâmica do Forte de São José da Ponta Grossa breve
                   explicação histórica desta Fortaleza
                 </li>
                 <li>
-                  Baía dos Golfinhos (Estando os golfinhos, paramos para
-                  observa-los.)
+                  👉 Passagem pela baía dos Golfinhos (Estando os golfinhos,
+                  paramos para observa-los. Você pode ter a sorte de
+                  encontra-los por lá!!)
                 </li>
                 <p className="mb-2">
                   🍽️ parada para almoço na praia da Costeira da Armação
                   (Município de Governador Celso Ramos). Valor de R$ 70,00
                   (dinheiro ou cartão) por pessoa buffet livre (crianças de 6 a
-                  10 anos paga meia no almoço);
+                  10 anos pagam meia no almoço);
                 </p>
                 <li>
-                  Visitação a Ilha de Anhatomirim (Desembarque Obrigatório)
+                  👉 Visitação à Ilha de Anhatomirim (
+                  <strong>Desembarque Obrigatório!</strong>)
                 </li>
                 <p className="font-bold">
-                  🏰 Valor da entrada na Fortaleza: R$16,00. (Só aceitam
+                  🏰 Valor da entrada na Fortaleza: R$ 16,00. (Só aceitam
                   dinheiro, levem trocado, para agilizar a fila de entrada.)
                   Crianças em idade escolar pagam a metade e adultos que
                   apresentarem carteirinha de estudante também. Maiores de 60
                   anos não pagam para entrar na Fortaleza.
                 </p>
               </ul>
+
               <p className="mb-2">🏊‍♂️ Banho de mar na Ilha do Francês</p>
 
               <p className="font-bold">Valores:</p>
