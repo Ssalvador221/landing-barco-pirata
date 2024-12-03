@@ -1,5 +1,4 @@
 /* eslint-disable @next/next/no-img-element */
-import { Calligraffitti } from 'next/font/google'
 import Link from 'next/link'
 import React from 'react'
 import { FaInstagram, FaWhatsapp } from 'react-icons/fa'
@@ -7,14 +6,9 @@ import { FaTicket } from 'react-icons/fa6'
 import Navbar from './Navbar'
 import Hamburguer from './Hamburguer'
 
-const calligraffitti = Calligraffitti({
-  weight: '400',
-  subsets: ['latin'],
-  display: 'swap',
-})
 function Header() {
   return (
-    <header className="relative h-screen flex flex-col max-sm:h-[550px]">
+    <header className="relative h-screen flex flex-col max-sm:h-[320px]">
       <div className="absolute inset-0 max-sm:z-50 max-sm:h-[400px]">
         <img
           alt="Placeholder"
@@ -25,29 +19,21 @@ function Header() {
       <Navbar />
       <Hamburguer />
       <div
-        className={`flex-grow flex items-center justify-center relative z-10 max-sm:bg-[#e6d2ae]`}
+        className={`flex-grow flex items-center lg:mt-[40rem] md:mt-[40rem] max-md:mt-[40rem] max-sm:hidden justify-center relative z-20 max-sm:bg-[#e6d2ae]`}
       >
         <div className="text-center">
-          <h1
-            className={`${calligraffitti.className} text-[6rem] max-sm:text-[3rem] font-bold text-[#8b4513] mb-4`}
-          ></h1>
-          <p
-            className={`${calligraffitti.className} text-3xl max-sm:text-xl max-sm:mt-[22rem] 2xl:mt-[45rem] max-xl:mt-[45rem] xl:mt-[45rem] lg:mt-[40rem] max-lg:mt-[50rem]  md:mt-[40rem] max-md:mt-[46rem]  text-[#ffffff] max-sm:text-[#000000] mt-[48rem] mb-8`}
-          >
-            Você tem coragem de navegar sob o comando de um pirata?
-          </p>
           <div className="flex w-full justify-center items-center gap-6">
             <Link
               href="https://api.whatsapp.com/send?phone=5548999603576"
               target="_blank"
             >
-              <FaWhatsapp className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
+              <FaWhatsapp className="w-8 h-8 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
             <Link href="https://www.instagram.com/barcoperolanegra/">
-              <FaInstagram className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
+              <FaInstagram className="w-8 h-8 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
             <Link href="https://ingressos.escunaspirata.com.br/agente/421103/">
-              <FaTicket className="w-6 h-6 text-[#ffffff] max-sm:text-[#000000]" />
+              <FaTicket className="w-8 h-8 text-[#ffffff] max-sm:text-[#000000]" />
             </Link>
           </div>
         </div>
