@@ -67,7 +67,7 @@ function AboutRide() {
             </CardContent>
             <CardFooter>
               <Link
-                href="https://ingressos.escunaspirata.com.br/unit/4212/pirata-pocket--compra-antecipada/"
+                href="https://api.whatsapp.com/send?phone=5548999603576"
                 target="_blank"
               >
                 <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
@@ -144,7 +144,7 @@ function AboutRide() {
             </CardContent>
             <CardFooter>
               <Link
-                href="https://ingressos.escunaspirata.com.br/unit/4211/pirata-full--compra-antecipada/"
+                href="https://api.whatsapp.com/send?phone=5548999603576"
                 target="_blank"
               >
                 <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
@@ -221,7 +221,7 @@ function AboutRide() {
             </CardContent>
             <CardFooter>
               <Link
-                href="https://ingressos.escunaspirata.com.br/unit/4233/fortalezas/"
+                href="https://api.whatsapp.com/send?phone=5548999603576"
                 target="_blank"
               >
                 <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">

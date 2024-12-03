@@ -10,6 +10,8 @@ import Footer from '@/components/Footer'
 import WhatsappButton from '@/components/WhatsappButton'
 import History from '@/components/History'
 import Intro from '@/components/Intro'
+import InstagramButton from '@/components/InstagramButton'
+import TicketButton from '@/components/ticketButton'
 
 export default function Home() {
   return (
@@ -25,6 +27,8 @@ export default function Home() {
       </main>
       <Footer />
       <WhatsappButton />
+      <InstagramButton />
+      <TicketButton />
     </div>
   )
 }
