@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import AboutRide from '@/components/cards/AboutRide'
@@ -11,7 +10,7 @@ import WhatsappButton from '@/components/WhatsappButton'
 import History from '@/components/History'
 import Intro from '@/components/Intro'
 import InstagramButton from '@/components/InstagramButton'
-import TicketButton from '@/components/ticketButton'
+import AboutUsCards from '@/components/OwerValues'
 
 export default function Home() {
   return (
@@ -23,12 +22,12 @@ export default function Home() {
         <AboutRide />
         <AboutLocale />
         <Informations />
+        <AboutUsCards />
         <Localization />
       </main>
       <Footer />
       <WhatsappButton />
       <InstagramButton />
-      <TicketButton />
     </div>
   )
 }
