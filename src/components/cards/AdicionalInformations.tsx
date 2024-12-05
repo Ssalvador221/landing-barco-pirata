@@ -59,7 +59,7 @@ function AdicionalInformations() {
             src="./grupo-idosas.jpg"
             className="w-full h-[400px] object-cover rounded-t-lg"
           />
-          <CardTitle className="text-left text-[#000000]">
+          <CardTitle className="text-left pt-4 text-[#000000]">
             Valores especiais para grupos ⚠️
           </CardTitle>
           <div className="text-3xl font-bold text-center text-[#000000]"></div>
