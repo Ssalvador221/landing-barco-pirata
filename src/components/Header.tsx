@@ -10,7 +10,7 @@ function Header() {
         <img
           alt="Placeholder"
           src="./barco-perola-negra.jpg"
-          className="w-full h-full object-cover max-sm:object-cover max-sm:align-middle max-sm:w-full max-sm:h-[270px] max-sm:mt-[58px] max-sm:z-50"
+          className="w-full h-full object-fill  max-sm:object-cover max-sm:align-middle max-sm:w-full max-sm:h-[270px] max-sm:mt-[58px] max-sm:z-50"
         />
       </div>
       <Navbar />
