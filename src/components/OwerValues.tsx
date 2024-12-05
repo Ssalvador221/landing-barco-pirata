@@ -3,10 +3,10 @@ import { Eye, Heart, Target } from 'lucide-react'
 
 export default function AboutUsCards() {
   return (
-    <section className="w-full flex flex-row flex-wrap justify-center px-16 py-16 bg-[#e6d2ae]">
+    <section className="w-full flex flex-row flex-wrap justify-center px-16 py-16 bg-[#f4e1c1]">
       <div>
         <h2 className="text-3xl font-bold text-center text-[#8b4513] mb-8">
-          Quem somos?
+          Nosso Propósito
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <Card className="bg-[#f4e1c1] border-[#8b4513]">
@@ -23,7 +23,6 @@ export default function AboutUsCards() {
               </p>
             </CardContent>
           </Card>
-
           <Card className="bg-[#f4e1c1] border-[#8b4513]">
             <CardHeader>
               <CardTitle className="flex flex-row items-center text-xl font-semibold text-[#8b4513]">
@@ -58,6 +57,12 @@ export default function AboutUsCards() {
               </ul>
             </CardContent>
           </Card>
+        </div>
+        <div className="flex flex-row justify-center items-center text-center pt-8 w-full">
+          <h1 className="w-full">
+            ⚠️ Nossa embarcação é habilitada pela Marinha do Brasil e segue
+            padrões e normas de segurança.
+          </h1>
         </div>
       </div>
     </section>
