@@ -6,7 +6,7 @@ function Navbar() {
   return (
     <nav className="fixed w-full z-50 max-sm:hidden  flex items-center justify-center p-6 bg-[url(/navbar.svg)]">
       <ul className="flex space-x-4">
-        {['Home', 'Passeio', 'Sobre nos', 'Localização'].map((item) => (
+        {['Home', 'Passeio', 'Sobre', 'Localização'].map((item) => (
           <li key={item}>
             <Link
               href={`#${item.toLowerCase()}`}
