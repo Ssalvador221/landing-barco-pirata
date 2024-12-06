@@ -11,7 +11,7 @@ function Intro() {
         </h1>
         <div className="flex flex-wrap items-center justify-center gap-12">
           <img src="./mastro.jpg" className="w-32 h-32" />
-          <p className="text-center w-[660px] max-sm:w-auto max-sm:text-center text-xl text-[#8b4513]">
+          <p className="text-center w-[660px] max-sm:w-full max-md:w-full max-sm:text-center text-xl text-[#8b4513]">
             Há mais de trinta anos de experiência nos mares da região! Pérola
             Negra, o maior e mais divertido barco pirata de Floripa, levará você
             a conhecer belíssimas paisagens e praias do Norte da Ilha, com uma

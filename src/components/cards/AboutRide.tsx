@@ -10,6 +10,7 @@ import {
   CardFooter,
 } from '../ui/card'
 import Link from 'next/link'
+import TipsModalButton from '../TipsModalButton'
 
 function AboutRide() {
   return (
@@ -66,14 +67,17 @@ function AboutRide() {
               </p>
             </CardContent>
             <CardFooter>
-              <Link
-                href="https://api.whatsapp.com/send?phone=5548999603576"
-                target="_blank"
-              >
-                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
-                  Compre aqui!
-                </button>
-              </Link>
+              <div className="flex flex-row gap-8 w-full">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5548999603576"
+                  target="_blank"
+                >
+                  <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                    Compre aqui!
+                  </button>
+                </Link>
+                <TipsModalButton />
+              </div>
             </CardFooter>
           </Card>
 
@@ -142,15 +146,18 @@ function AboutRide() {
                 6 a 10 anos pagam meia é necessário apresentação de documento
               </p>
             </CardContent>
-            <CardFooter>
-              <Link
-                href="https://api.whatsapp.com/send?phone=5548999603576"
-                target="_blank"
-              >
-                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
-                  Compre aqui!
-                </button>
-              </Link>
+            <CardFooter className="fel">
+              <div className="flex flex-row gap-8 w-full">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5548999603576"
+                  target="_blank"
+                >
+                  <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                    Compre aqui!
+                  </button>
+                </Link>
+                <TipsModalButton />
+              </div>
             </CardFooter>
           </Card>
 
@@ -220,14 +227,17 @@ function AboutRide() {
               </p>
             </CardContent>
             <CardFooter>
-              <Link
-                href="https://api.whatsapp.com/send?phone=5548999603576"
-                target="_blank"
-              >
-                <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
-                  Compre aqui!
-                </button>
-              </Link>
+              <div className="flex flex-row gap-8 w-full">
+                <Link
+                  href="https://api.whatsapp.com/send?phone=5548999603576"
+                  target="_blank"
+                >
+                  <button className="bg-[#8b4513] hover:bg-[#5e2c04] text-white py-2 px-4 rounded">
+                    Compre aqui!
+                  </button>
+                </Link>
+                <TipsModalButton />
+              </div>
             </CardFooter>
           </Card>
         </div>

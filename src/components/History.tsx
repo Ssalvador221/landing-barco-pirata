@@ -13,12 +13,12 @@ import {
 function History() {
   return (
     <section id="our-story" className="py-16 bg-[#f4e1c1]">
-      <div className="container mx-auto px-4">
+      <div className="w-full mx-auto px-4">
         <h2 className="text-3xl font-bold text-center mb-8 text-[#8b4513]">
           Nossa História
         </h2>
-        <div className="flex flex-wrap flex-row justify-center gap-16 max-sm:gap-12">
-          <Carousel className="w-[600px] h-auto">
+        <div className="flex flex-wrap flex-row justify-center gap-16 max-md:w-full max-md:flex max-md:flex-col max-md:justify-center max-md:items-center max-sm:gap-0">
+          <Carousel className="w-[600px] max-md:w-[500px] max-sm:w-full h-auto">
             <CarouselContent>
               {[0, 1, 2, 3].map((_, index) => (
                 <CarouselItem key={index}>
@@ -35,7 +35,7 @@ function History() {
             <CarouselPrevious />
             <CarouselNext className="max-sm:hidden" />
           </Carousel>
-          <Card className="bg-[#e6d2ae] w-[700px] border-[#8b4513]">
+          <Card className="bg-[#e6d2ae] w-[700px] max-md:w-[500px] max-sm:w-full border-[#8b4513]">
             <CardHeader>
               <CardTitle className="text-[#8b4513] flex items-center">
                 <Users className="w-6 h-6 mr-2" />

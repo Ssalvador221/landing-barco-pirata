@@ -3,7 +3,7 @@ import { FaFacebook, FaInstagram, FaWhatsapp } from 'react-icons/fa'
 
 function Footer() {
   return (
-    <footer className="flex flex-row justify-center items-center gap-16 py-8 px-8 w-full bg-[#8b4513] text-[#f4e1c1] ">
+    <footer className="flex flex-row flex-wrap justify-center items-center max-sm:flex max-sm:flex-col max-sm:items-start  gap-16 py-8 px-8 w-full bg-[#8b4513] text-[#f4e1c1] ">
       <div className="flex flex-col gap-y-2 justify-center text-left text-sm">
         <h4 className="font-bold mb-2">FALE CONOSCO:</h4>
         <p>

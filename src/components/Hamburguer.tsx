@@ -28,14 +28,9 @@ function Hamburguer() {
             Passeio
           </DropdownMenuItem>
           <DropdownMenuItem
-            onClick={() => document.getElementById('praia')?.scrollIntoView()}
+            onClick={() => document.getElementById('sobre')?.scrollIntoView()}
           >
-            Praia
-          </DropdownMenuItem>
-          <DropdownMenuItem
-            onClick={() => document.getElementById('infos')?.scrollIntoView()}
-          >
-            Infos
+            Sobre Nos
           </DropdownMenuItem>
           <DropdownMenuItem
             onClick={() =>
@@ -43,15 +38,6 @@ function Hamburguer() {
             }
           >
             Localização
-          </DropdownMenuItem>
-          <DropdownMenuItem
-            onClick={() =>
-              window.location.assign(
-                'https://ingressos.escunaspirata.com.br/agente/421103/',
-              )
-            }
-          >
-            Ingressos
           </DropdownMenuItem>
         </DropdownMenuContent>
       </DropdownMenu>
