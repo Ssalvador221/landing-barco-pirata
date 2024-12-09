@@ -7,7 +7,7 @@ function Footer() {
       <div className="flex flex-col gap-y-2 justify-center text-left text-sm">
         <h4 className="font-bold mb-2">FALE CONOSCO:</h4>
         <p>
-          <strong>Endereço: </strong> Av. Luiz Boiteux Piazza, 64778 Ponta das
+          <strong>Agência: </strong> Av. Luiz Boiteux Piazza, 6478 Ponta das
           Canas
         </p>
         <p>
