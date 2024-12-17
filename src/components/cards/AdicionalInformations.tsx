@@ -26,10 +26,10 @@ function AdicionalInformations() {
         </CardHeader>
         <CardContent>
           <p className="pb-2">SAÍDAS DE ROTEIRO FULL:</p>
-          <li>SEGUNDA</li>
-          <li>TERÇA</li>
-          <li>QUARTA</li>
-          <li>SEXTA</li>
+          <li>SEGUNDA-FEIRA</li>
+          <li>TERÇA-FEIRA</li>
+          <li>QUARTA-FEIRA</li>
+          <li>SEXTA-FEIRA</li>
           <li>SÁBADO</li>
           <p className="pt-2">
             ROTEIRO FULL + ANHATOMIRIM: QUINTAS E DOMINGOS.
