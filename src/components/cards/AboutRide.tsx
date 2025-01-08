@@ -56,8 +56,8 @@ function AboutRide() {
                 com vista panorâmica da Fortaleza de São José da Ponta Grossa.
               </p>
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 100.00 COMPRA ANTECIPADA.</p>
-              <p>R$ 120.00 COMPRA NO DIA.</p>
+              <p className="font-bold">R$ 110.00 COMPRA ANTECIPADA.</p>
+              <p>R$ 130.00 COMPRA NO DIA.</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
@@ -136,8 +136,8 @@ function AboutRide() {
               </p>
               <p className="mb-2">🏊‍♂️ Banho de Mar ilha do francês</p>
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 140.00 COMPRA ANTECIPADA</p>
-              <p>R$ 160.00 COMPRA NO DIA</p>
+              <p className="font-bold">R$ 180.00 COMPRA ANTECIPADA</p>
+              <p>R$ 200.00 COMPRA NO DIA</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
@@ -217,8 +217,8 @@ function AboutRide() {
               <p className="mb-2">🏊‍♂️ Banho de mar na Ilha do Francês</p>
 
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 180.00 COMPRA ANTECIPADA.</p>
-              <p>R$ 200.00 COMPRA NO DIA</p>
+              <p className="font-bold">R$ 220.00 COMPRA ANTECIPADA.</p>
+              <p>R$ 240.00 COMPRA NO DIA</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
