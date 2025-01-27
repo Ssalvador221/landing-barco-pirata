@@ -56,8 +56,8 @@ function AboutRide() {
                 com vista panorâmica da Fortaleza de São José da Ponta Grossa.
               </p>
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 110.00 COMPRA ANTECIPADA.</p>
-              <p>R$ 130.00 COMPRA NO DIA.</p>
+              <p className="font-bold">R$ 130.00 COMPRA ANTECIPADA.</p>
+              <p>R$ 150.00 COMPRA NO DIA.</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
