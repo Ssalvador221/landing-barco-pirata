@@ -58,6 +58,13 @@ function AboutRide() {
               <p className="font-bold">Valores:</p>
               <p className="font-bold">R$ 130.00 COMPRA ANTECIPADA.</p>
               <p>R$ 150.00 COMPRA NO DIA.</p>
+              <p className="font-bold text-[#5e2c04] mt-4">
+                Novos preços a partir de 21/12/2025:
+                <br />
+                R$ 140.00 COMPRA ANTECIPADA.
+                <br />
+                R$ 160.00 COMPRA NO DIA.
+              </p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
@@ -131,13 +138,20 @@ function AboutRide() {
               </ul>
               <p className="mb-2">
                 🍽️ parada para almoço na praia da Costeira da Armação (Município
-                de Governador Celso Ramos). Valor de R$ 70,00 (dinheiro ou
+                de Governador Celso Ramos). Valor de R$ 80,00 (dinheiro ou
                 cartão) por pessoa buffet livre (Crianças até 10 anos pagam);
               </p>
               <p className="mb-2">🏊‍♂️ Banho de Mar ilha do francês</p>
               <p className="font-bold">Valores:</p>
               <p className="font-bold">R$ 180.00 COMPRA ANTECIPADA</p>
               <p>R$ 200.00 COMPRA NO DIA</p>
+              <p className="font-bold text-[#5e2c04] mt-4">
+                Novos preços a partir de 21/12/2025:
+                <br />
+                R$ 190.00 COMPRA ANTECIPADA.
+                <br />
+                R$ 210.00 COMPRA NO DIA.
+              </p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
@@ -197,7 +211,7 @@ function AboutRide() {
                 </li>
                 <p className="mb-2">
                   🍽️ parada para almoço na praia da Costeira da Armação
-                  (Município de Governador Celso Ramos). Valor de R$ 70,00
+                  (Município de Governador Celso Ramos). Valor de R$ 80,00
                   (dinheiro ou cartão) por pessoa buffet livre (crianças de 6 a
                   10 anos pagam meia no almoço);
                 </p>
@@ -219,6 +233,13 @@ function AboutRide() {
               <p className="font-bold">Valores:</p>
               <p className="font-bold">R$ 220.00 COMPRA ANTECIPADA.</p>
               <p>R$ 240.00 COMPRA NO DIA</p>
+              <p className="font-bold text-[#5e2c04] mt-4">
+                Novos preços a partir de 21/12/2025
+                <br />
+                R$ 240.00 COMPRA ANTECIPADA.
+                <br />
+                R$ 260.00 COMPRA NO DIA.
+              </p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam
               </p>
