@@ -124,8 +124,8 @@ function AboutRide() {
                 </li>
                 <li>
                   👉 Passagem pela baía dos Golfinhos (estando os golfinhos,
-                  paramos para observá-los. Você pode ter a sorte de encontrá-los
-                  por lá!)
+                  paramos para observá-los. Você pode ter a sorte de
+                  encontrá-los por lá!)
                 </li>
               </ul>
               <p className="mb-2">
@@ -214,11 +214,11 @@ function AboutRide() {
                 meia no almoço);
               </p>
               <p className="font-bold">
-                🏰 Valor da entrada na Fortaleza: R$ 16,00. (Só aceitam dinheiro,
-                leve trocado, para agilizar a fila de entrada.) Crianças em
-                idade escolar pagam a metade e adultos que apresentarem
-                carteirinha de estudante também. Maiores de 60 anos não pagam
-                para entrar na Fortaleza.
+                🏰 Valor da entrada na Fortaleza: R$ 16,00. (Só aceitam
+                dinheiro, leve trocado, para agilizar a fila de entrada.)
+                Crianças em idade escolar pagam a metade e adultos que
+                apresentarem carteirinha de estudante também. Maiores de 60 anos
+                não pagam para entrar na Fortaleza.
               </p>
 
               <p className="mb-2 mt-4">🏊‍♂️ Banho de mar na Ilha do Francês</p>
