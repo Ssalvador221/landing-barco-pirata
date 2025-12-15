@@ -123,9 +123,9 @@ function AboutRide() {
                   Fortaleza de Santa Cruz
                 </li>
                 <li>
-                  <span className="mr-2">👉</span>Passagem pela baía dos
-                  Golfinhos (Estando os golfinhos, paramos para observa-los.
-                  Você pode ter a sorte de encontra-los por lá!)
+                  👉 Passagem pela baía dos Golfinhos (estando os golfinhos,
+                  paramos para observá-los. Você pode ter a sorte de
+                  encontrá-los por lá!)
                 </li>
               </ul>
               <p className="mb-2">
@@ -207,6 +207,19 @@ function AboutRide() {
                   <strong>Desembarque Obrigatório!</strong>)
                 </li>
               </ul>
+              <p className="mb-2">
+                🍽️ Parada para almoço na praia da Costeira da Armação (Município
+                de Governador Celso Ramos). Valor de R$ 80,00 (dinheiro ou
+                cartão) por pessoa buffet livre (crianças de 6 a 10 anos pagam
+                meia no almoço);
+              </p>
+              <p className="font-bold">
+                🏰 Valor da entrada na Fortaleza: R$ 16,00. (Só aceitam
+                dinheiro, leve trocado, para agilizar a fila de entrada.)
+                Crianças em idade escolar pagam a metade e adultos que
+                apresentarem carteirinha de estudante também. Maiores de 60 anos
+                não pagam para entrar na Fortaleza.
+              </p>
 
               <p className="mb-2 mt-4">🏊‍♂️ Banho de mar na Ilha do Francês</p>
 
