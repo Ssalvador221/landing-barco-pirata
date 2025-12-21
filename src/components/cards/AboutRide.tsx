@@ -56,15 +56,9 @@ function AboutRide() {
                 com vista panorâmica da Fortaleza de São José da Ponta Grossa.
               </p>
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 130.00 COMPRA ANTECIPADA.</p>
-              <p>R$ 150.00 COMPRA NO DIA.</p>
-              <p className="font-bold text-[#5e2c04] mt-4">
-                Novos preços a partir de 21/12/2025:
-                <br />
-                R$ 140.00 COMPRA ANTECIPADA.
-                <br />
-                R$ 160.00 COMPRA NO DIA.
-              </p>
+              {/* NOVOS VALORES COMO PRINCIPAIS */}
+              <p className="font-bold">R$ 140,00 COMPRA ANTECIPADA.</p>
+              <p>R$ 160,00 COMPRA NO DIA.</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam,
               </p>
@@ -136,15 +130,9 @@ function AboutRide() {
               </p>
               <p className="mb-2">🏊‍♂️ Banho de mar na Ilha do Francês</p>
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 180.00 COMPRA ANTECIPADA</p>
-              <p>R$ 200.00 COMPRA NO DIA</p>
-              <p className="font-bold text-[#5e2c04] mt-4">
-                Novos preços a partir de 21/12/2025:
-                <br />
-                R$ 190.00 COMPRA ANTECIPADA.
-                <br />
-                R$ 210.00 COMPRA NO DIA.
-              </p>
+              {/* NOVOS VALORES COMO PRINCIPAIS */}
+              <p className="font-bold">R$ 190,00 COMPRA ANTECIPADA.</p>
+              <p>R$ 210,00 COMPRA NO DIA.</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam,
               </p>
@@ -224,15 +212,9 @@ function AboutRide() {
               <p className="mb-2 mt-4">🏊‍♂️ Banho de mar na Ilha do Francês</p>
 
               <p className="font-bold">Valores:</p>
-              <p className="font-bold">R$ 220.00 COMPRA ANTECIPADA.</p>
-              <p>R$ 240.00 COMPRA NO DIA</p>
-              <p className="font-bold text-[#5e2c04] mt-4">
-                Novos preços a partir de 21/12/2025
-                <br />
-                R$ 240.00 COMPRA ANTECIPADA.
-                <br />
-                R$ 260.00 COMPRA NO DIA.
-              </p>
+              {/* NOVOS VALORES COMO PRINCIPAIS */}
+              <p className="font-bold">R$ 240,00 COMPRA ANTECIPADA.</p>
+              <p>R$ 260,00 COMPRA NO DIA.</p>
               <p className="text-sm mt-2">
                 👧🏽 Crianças de 0 a 5 anos não pagam,
               </p>
